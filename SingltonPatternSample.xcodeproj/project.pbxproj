@@ -13,6 +13,8 @@
 		12B512A01BCA0B190031FF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B5129E1BCA0B190031FF1E /* Main.storyboard */; };
 		12B512A21BCA0B190031FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B512A11BCA0B190031FF1E /* Assets.xcassets */; };
 		12B512A51BCA0B190031FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B512A31BCA0B190031FF1E /* LaunchScreen.storyboard */; };
+		12B512AE1BCA0B520031FF1E /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512AD1BCA0B520031FF1E /* Manager.m */; settings = {ASSET_TAGS = (); }; };
+		12B512B11BCA0CB80031FF1E /* OtherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512B01BCA0CB80031FF1E /* OtherManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		12B512A11BCA0B190031FF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B512A41BCA0B190031FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B512A61BCA0B190031FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B512AC1BCA0B520031FF1E /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		12B512AD1BCA0B520031FF1E /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		12B512AF1BCA0CB80031FF1E /* OtherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherManager.h; sourceTree = "<group>"; };
+		12B512B01BCA0CB80031FF1E /* OtherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				12B512991BCA0B190031FF1E /* AppDelegate.m */,
 				12B5129B1BCA0B190031FF1E /* ViewController.h */,
 				12B5129C1BCA0B190031FF1E /* ViewController.m */,
+				12B512AC1BCA0B520031FF1E /* Manager.h */,
+				12B512AD1BCA0B520031FF1E /* Manager.m */,
+				12B512AF1BCA0CB80031FF1E /* OtherManager.h */,
+				12B512B01BCA0CB80031FF1E /* OtherManager.m */,
 				12B5129E1BCA0B190031FF1E /* Main.storyboard */,
 				12B512A11BCA0B190031FF1E /* Assets.xcassets */,
 				12B512A31BCA0B190031FF1E /* LaunchScreen.storyboard */,
@@ -152,6 +162,8 @@
 				12B5129D1BCA0B190031FF1E /* ViewController.m in Sources */,
 				12B5129A1BCA0B190031FF1E /* AppDelegate.m in Sources */,
 				12B512971BCA0B190031FF1E /* main.m in Sources */,
+				12B512B11BCA0CB80031FF1E /* OtherManager.m in Sources */,
+				12B512AE1BCA0B520031FF1E /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
